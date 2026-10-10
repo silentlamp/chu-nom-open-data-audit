@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Nếu sử dụng audit này, vui lòng trích dẫn repository và ngày phiên bản."
+title: "Kiểm kê dữ liệu mở Chữ Nôm"
+type: dataset
+license: CC-BY-SA-4.0
+version: 0.1.0
+date-released: 2026-10-10
+repository-code: "https://github.com/silentlamp/chu-nom-open-data-audit"
+url: "https://github.com/silentlamp/chu-nom-open-data-audit"
+

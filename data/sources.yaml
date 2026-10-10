@@ -1,0 +1,172 @@
+schema_version: 1
+audit_date: 2026-10-10
+project_license: CC-BY-SA-4.0
+disclaimer: "Metadata and audit notes only; upstream works retain their own rights."
+
+sources:
+  - id: unicode-data
+    name: Unicode UCD and Unihan
+    url: https://unicode.org/policies/licensing_policy.html
+    status: green
+    license: Unicode-3.0
+    reuse: "Allowed with license/copyright notice; verify per-file exceptions."
+    contact: https://www.unicode.org/contacts.html
+
+  - id: unicode-pdfs
+    name: Unicode Standard, code charts and IRG reports
+    url: https://www.unicode.org/copyright.html
+    status: yellow
+    license: proprietary-with-published-terms
+    reuse: "Link and quote within terms; do not mirror, modify, or extract glyphs."
+    contact: Unicode Consortium
+
+  - id: nomnatong
+    name: NomNaTong font
+    url: https://github.com/nomfoundation/font
+    status: green
+    license: MIT
+    reuse: "Embed, modify, and redistribute with MIT notice."
+    contact: https://github.com/nomfoundation/font/issues
+
+  - id: bchnctd
+    name: Bảng chữ Hán Nôm Chuẩn Thường dùng
+    url: https://www.hannom-rcv.org/BCHNCTD.html
+    status: yellow
+    license: NOASSERTION
+    reuse: "Reference only until written permission for bulk/derivative/open redistribution."
+    contact: https://groups.google.com/g/hannom-rcv
+    authority_note: "Community standardization proposal; do not label as an official national standard."
+
+  - id: pyhannom-data
+    name: PyHanNom derived data
+    url: https://pypi.org/project/pyhannom/
+    status: red
+    license: research-and-education-noncommercial
+    reuse: "Code and data have different terms; data is not suitable for open relicensing."
+    contact: "PyHanNom maintainer and Hội Nghiên cứu và Ứng dụng Hán Nôm"
+
+  - id: td-cndg
+    name: Tự Điển Chữ Nôm Dẫn Giải digital edition
+    url: https://www.nomfoundation.org/nom-tools/Tu-Dien-Chu-Nom-Dan_Giai_Sources/About_the_Digital_Version?uiLang=en
+    status: yellow
+    license: site-terms
+    reuse: "Public noncommercial use with acknowledgement appears permitted; bulk derivative dataset needs written clearance."
+    contact: info@nomfoundation.org
+    scale:
+      main_glyphs: 9200
+      appendix_glyphs: 250
+      readings: 14519
+      cited_source_documents: 124
+
+  - id: vnpf-site
+    name: Vietnamese Nôm Preservation Foundation website materials
+    url: https://www.nomfoundation.org/About-the-Foundation/Terms-of-use?uiLang=en
+    status: yellow
+    license: site-terms
+    reuse: "Personal and conditioned public noncommercial use; request permission for bulk redistribution."
+    contact: info@nomfoundation.org
+
+  - id: digital-library-hannom
+    name: Digital Library of Hán-Nôm
+    url: https://nomfoundation.org/nom-project/Digital-Library-of-Han-Nom?uiLang=en
+    status: yellow
+    license: NOASSERTION
+    reuse: "Do not bulk redistribute scans, metadata, transcription, or annotation without permission."
+    contact: "info@nlv.gov.vn; info@digitizingvietnam.com"
+    scale_note: "NLV resource page describes approximately 5,280 Hán-Nôm manuscript items."
+
+  - id: kho-chu-han-nom-ma-hoa
+    name: Kho Chữ Hán Nôm Mã Hoá
+    url: https://hannom.vass.gov.vn/
+    status: yellow
+    license: NOASSERTION
+    reuse: "Cite/reference; use Unicode-derived mappings; no book digitization without permission."
+    contact: hns@vass.gov.vn
+
+  - id: tcvn-hannom
+    name: TCVN 5773:1993 and TCVN 6056:1995
+    url: https://tieuchuan.vsqi.gov.vn/
+    status: yellow
+    license: standards-publication-copyright
+    reuse: "Implement facts/mappings independently; do not republish full standard or tables."
+    contact: https://tieuchuan.vsqi.gov.vn/
+
+  - id: cjkvi-ids
+    name: CJKVI IDS
+    url: https://github.com/cjkvi/cjkvi-ids
+    status: green
+    license: GPL-2.0-only-and-CHISE-terms
+    reuse: "Redistribute in a separable component and comply with per-file licenses."
+    contact: https://github.com/cjkvi/cjkvi-ids/issues
+
+  - id: rime-nom-viet
+    name: RIME Nôm Việt
+    url: https://github.com/nomnaviet/rime-nom-viet
+    status: yellow
+    license: MIT
+    reuse: "Repository says MIT; confirm MIT covers all dictionary data and upstream provenance."
+    contact: nhatvu148@gmail.com
+
+  - id: nomnaviet-contrib
+    name: Nôm Na Việt community data
+    url: https://github.com/nomnaviet/nomnaviet-contrib
+    status: yellow
+    license: NOASSERTION
+    reuse: "Repository points to main-project license without naming it."
+    contact: nhatvu148@gmail.com
+
+  - id: chunom-org
+    name: chunom.org
+    url: https://chunom.org/
+    status: yellow
+    license: NOASSERTION
+    reuse: "Reference only; no scraping/repackaging until a data license is confirmed."
+    contact: https://chunom.org/
+
+  - id: nomflow
+    name: NômFlow / Digitizing Việt Nam
+    url: https://www.digitizingvietnam.com/en
+    status: yellow
+    license: NOASSERTION
+    reuse: "Free access is not an open-data license; request curriculum/data permission."
+    contact: info@digitizingvietnam.com
+
+  - id: ihr-nomdb
+    name: IHR-NomDB
+    url: https://morphoboid.labri.fr/ihr-nom.html
+    status: red
+    license: noncommercial-research-only
+    reuse: "No public redistribution of dataset/annotations under current terms."
+    contact: MorphoBoid/LaBRI project owners and upstream image rights holders
+    scale:
+      handwritten_instances: 34991
+      synthetic_instances: 704991
+      character_lexicon: 13254
+
+  - id: nomnaocr
+    name: NomNaOCR
+    url: https://github.com/ds4v/NomNaOCR
+    status: red
+    license: NOASSERTION
+    reuse: "Do not mirror until image, transcription, annotation, and upstream rights are cleared."
+    contact: https://github.com/ds4v/NomNaOCR/issues
+    scale:
+      pages: 2953
+      labeled_patches: 38318
+
+  - id: university-teaching-research
+    name: University and institute teaching/research materials
+    url: https://hannom.vass.gov.vn/
+    status: yellow
+    license: record-specific
+    reuse: "Cite and summarize; request author/publisher permission for tables, figures, exercises, or adapted curriculum."
+    contact: "hns@vass.gov.vn; relevant author, university, journal, or publisher"
+
+  - id: classical-texts
+    name: Classical/public-domain Nôm works
+    url: null
+    status: yellow
+    license: record-specific
+    reuse: "Underlying work may be public domain; audit each scan, edition, transcription, translation, and annotation."
+    contact: record-specific
+
